@@ -1,0 +1,175 @@
+# Code and note from reading 21st Century C
+
+## Learning track
+
+- [ ] Part I. The Environment
+  - [ ] Chapter 1. Set Yourself Up for Easy Compilation
+    - [ ] Use a Package Manager
+    - [ ] Compiling C with Windows
+      - [ ] POSIX for Windows
+      - [ ] Compiling C with POSIX
+      - [ ] Compiling C Without POSIX
+    - [ ] Which Way to the Library?
+      - [ ] A Few of My Favorite Flags
+      - [ ] Paths
+      - [ ] Runtime Linking
+    - [ ] Using Makefiles
+      - [ ] Setting Variables
+      - [ ] The Rules
+    - [ ] Using Libraries from Source
+    - [ ] Using Libraries from Source (Even if Your Sysadmin Doesn\xE2\x80\x99t Want You To)
+    - [ ] Compiling C Programs via Here Document
+      - [ ] Include Header Files from the Command Line
+      - [ ] The Unified Header
+      - [ ] Here Documents
+      - [ ] Compiling from stdin
+  - [ ] Chapter 2. Debug, Test, Document
+    - [ ] Using a Debugger
+      - [ ] A Debugging Detective Story
+      - [ ] GDB Variables
+      - [ ] Print Your Structures
+    - [ ] Using Valgrind to Check for Errors
+    - [ ] Unit Testing
+      - [ ] Using a Program as a Library
+      - [ ] Coverage
+    - [ ] Error Checking
+      - [ ] What is the User's Involvement in the Error?
+      - [ ] The Context in Which the User is Working
+      - [ ] How Should the Error Indication Be Returned?
+    - [ ] Interweaving Documentation
+      - [ ] Doxygen
+      - [ ] Literate Code with CWEB
+  - [ ] Chapter 3. Packaging Your Project
+    - [ ] The Shell
+      - [ ] Replacing Shell Commands with Their Outputs
+      - [ ] Use the Shell's for Loops to Operate on a Set of Files
+      - [ ] Test for Files
+      - [ ] fc
+    - [ ] Makefiles vs. Shell Scripts
+    - [ ] Packaging Your Code with Autotools
+      - [ ] An Autotools Demo
+      - [ ] Describing the Makefile with Makefile.am
+      - [ ] The configure Script
+  - [ ] Chapter 4. Version Control
+    - [ ] Changes via diff
+    - [ ] Git's Objects
+      - [ ] The Stash
+    - [ ] Trees and Their Branches
+      - [ ] Merging
+      - [ ] The Rebase
+    - [ ] Remote Repositories
+  - [ ] Chapter 5. Playing Nice with Others
+    - [ ] Dynamic Loading
+      - [ ] The Limits of Dynamic Loading
+    - [ ] The Process
+      - [ ] Writing to Be Read by Nonnatives
+      - [ ] The Wrapper Function
+      - [ ] Smuggling Data Structures Across the Border
+      - [ ] Linking
+    - [ ] Python Host
+      - [ ] Compiling and Linking
+      - [ ] The Conditional Subdirectory for Automake
+      - [ ] Distutils Backed with Autotools
+- [ ] Part II. The Language
+  - [ ] Chapter 6. Your Pal the Pointer
+    - [ ] Automatic, Static, and Manual Memory
+    - [ ] Persistent State Variables
+    - [ ] Pointers Without malloc
+      - [ ] Structures Get Copied, Arrays Get Aliased
+      - [ ] malloc and Memory-Twiddling
+      - [ ] The Fault Is in Our Stars
+      - [ ] All the Pointer Arithmetic You Need to Know
+      - [ ] Typedef as a teaching tool
+  - [ ] Chapter 7. Inessential C Syntax that Textbooks Spend a Lot of Time Covering
+    - [ ] Don't Bother Explicitly Returning from main
+    - [ ] Let Declarations Flow
+      - [ ] Set Array Size at Runtime
+    - [ ] Cast Less
+    - [ ] Enums and Strings
+    - [ ] Labels, gotos, switches, and breaks
+      - [ ] goto Considered
+      - [ ] switch
+    - [ ] Deprecate Float
+    - [ ] Comparing Unsigned Integers
+    - [ ] Safely Parse Strings to Numbers
+  - [ ] Chapter 8. Important C Syntax that Textbooks Often Do Not Cover
+    - [ ] Cultivate Robust and Flourishing Macros
+      - [ ] The Preprocessor
+      - [ ] Test Macros
+      - [ ] Header Guards
+    - [ ] Linkage with static and extern
+      - [ ] Externally Linked Variables in Header Files
+    - [ ] The const Keyword
+      - [ ] Noun-Adjective Form
+      - [ ] Tension
+      - [ ] Depth
+      - [ ] The char const `**` Issue
+  - [ ] Chapter 9. Easier Text Handling
+    - [ ] Making String Handling Less Painful with asprintf
+      - [ ] Security
+      - [ ] Constant Strings
+      - [ ] Extending Strings with asprintf
+    - [ ] A Pean to strtok
+    - [ ] Unicode
+      - [ ] The Encoding for C Code
+      - [ ] Unicode Libraries
+      - [ ] The Sample Code
+  - [ ] Chapter 10. Better Structures
+    - [ ] Compound Literals
+      - [ ] Initialization via Compound Literals
+    - [ ] Variadic Macros
+    - [ ] Safely Terminated Lists
+    - [ ] Multiple Lists
+    - [ ] Foreach
+    - [ ] Vectorize a Function
+    - [ ] Designated Initializers
+    - [ ] Initialize Arrays and Structs with Zeros
+    - [ ] Typedefs Save the Day
+      - [ ] A Style Note
+    - [ ] Return Multiple Items from a Function
+      - [ ] Reporting Errors
+    - [ ] Flexible Function Inputs
+      - [ ] Declare Your Function as printf-Style
+      - [ ] Optional and Named Arguments
+      - [ ] Polishing a Dull Function
+    - [ ] The Void Pointer and the Structures It Points To
+      - [ ] Functions with Generic Inputs
+      - [ ] Generic Structures
+  - [ ] Chapter 11. Object-Oriented Programming in C
+    - [ ] Extending Structures and Dictionaries
+      - [ ] Implementing a Dictionary
+      - [ ] C, with fewer seams
+    - [ ] Functions in Your Structs
+      - [ ] Vtables
+    - [ ] Scope
+      - [ ] Private Struct Elements
+    - [ ] Overload
+      - [ ] Generic
+    - [ ] Count References
+      - [ ] Example: A Substring Object
+      - [ ] Example: An Agent-Based Model of Group Formation
+      - [ ] Conclusion
+  - [ ] Chapter 12. Parallel Threads
+    - [ ] The Environment
+      - [ ] The Ingredients
+    - [ ] OpenMP
+      - [ ] Compiling OpenMP, pthreads, and C atoms
+      - [ ] Interference
+      - [ ] Map-reduce
+      - [ ] Multiple Tasks
+    - [ ] Thread Local
+      - [ ] Localizing Nonstatic Variables
+    - [ ] Shared Resources
+      - [ ] Atoms
+    - [ ] Pthreads
+    - [ ] C atoms
+      - [ ] Atomic structs
+  - [ ] Chapter 13. Libraries
+    - [ ] GLib
+    - [ ] POSIX
+      - [ ] Parsing Regular Expressions
+      - [ ] Using mmap for Gigantic Data Sets
+    - [ ] The GNU Scientific Library
+    - [ ] SQLite
+      - [ ] The Queries
+    - [ ] libxml and cURL

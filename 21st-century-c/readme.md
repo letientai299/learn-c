@@ -2,7 +2,7 @@
 
 ## Learning track
 
-- [ ] Part I. The Environment
+- [x] Part I. The Environment
   - [x] Chapter 1. Set Yourself Up for Easy Compilation
     - [x] Use a Package Manager
     - [x] Compiling C with Windows
@@ -17,24 +17,24 @@
     - [x] Unit Testing
     - [x] Error Checking
     - [x] Interweaving Documentation
-  - [ ] Chapter 3. Packaging Your Project
-    - [ ] The Shell
-    - [ ] Makefiles vs. Shell Scripts
-    - [ ] Packaging Your Code with Autotools
-  - [ ] Chapter 4. Version Control
-    - [ ] Changes via diff
-    - [ ] Git's Objects
-    - [ ] Trees and Their Branches
-    - [ ] Remote Repositories
-  - [ ] Chapter 5. Playing Nice with Others
-    - [ ] Dynamic Loading
-    - [ ] The Process
-    - [ ] Python Host
+  - [x] Chapter 3. Packaging Your Project
+    - [x] The Shell
+    - [x] Makefiles vs. Shell Scripts
+    - [x] Packaging Your Code with Autotools
+  - [x] Chapter 4. Version Control
+    - [x] Changes via diff
+    - [x] Git's Objects
+    - [x] Trees and Their Branches
+    - [x] Remote Repositories
+  - [x] Chapter 5. Playing Nice with Others
+    - [x] Dynamic Loading
+    - [x] The Process
+    - [x] Python Host
 - [ ] Part II. The Language
-  - [ ] Chapter 6. Your Pal the Pointer
-    - [ ] Automatic, Static, and Manual Memory
-    - [ ] Persistent State Variables
-    - [ ] Pointers Without malloc
+  - [x] Chapter 6. Your Pal the Pointer
+    - [x] Automatic, Static, and Manual Memory
+    - [x] Persistent State Variables
+    - [x] Pointers Without malloc
   - [ ] Chapter 7. Inessential C Syntax that Textbooks Spend a Lot of Time Covering
     - [ ] Don't Bother Explicitly Returning from main
     - [ ] Let Declarations Flow
@@ -84,3 +84,4 @@
     - [ ] The GNU Scientific Library
     - [ ] SQLite
     - [ ] libxml and cURL
+  - [x] Appendix A: C 101

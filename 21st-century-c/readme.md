@@ -35,19 +35,19 @@
     - [x] Automatic, Static, and Manual Memory
     - [x] Persistent State Variables
     - [x] Pointers Without malloc
-  - [ ] Chapter 7. Inessential C Syntax that Textbooks Spend a Lot of Time Covering
-    - [ ] Don't Bother Explicitly Returning from main
-    - [ ] Let Declarations Flow
-    - [ ] Cast Less
-    - [ ] Enums and Strings
-    - [ ] Labels, gotos, switches, and breaks
-    - [ ] Deprecate Float
-    - [ ] Comparing Unsigned Integers
-    - [ ] Safely Parse Strings to Numbers
-  - [ ] Chapter 8. Important C Syntax that Textbooks Often Do Not Cover
-    - [ ] Cultivate Robust and Flourishing Macros
-    - [ ] Linkage with static and extern
-    - [ ] The const Keyword
+  - [x] Chapter 7. Inessential C Syntax that Textbooks Spend a Lot of Time Covering
+    - [x] Don't Bother Explicitly Returning from main
+    - [x] Let Declarations Flow
+    - [x] Cast Less
+    - [x] Enums and Strings
+    - [x] Labels, gotos, switches, and breaks
+    - [x] Deprecate Float
+    - [x] Comparing Unsigned Integers
+    - [x] Safely Parse Strings to Numbers
+  - [x] Chapter 8. Important C Syntax that Textbooks Often Do Not Cover
+    - [x] Cultivate Robust and Flourishing Macros
+    - [x] Linkage with static and extern
+    - [x] The const Keyword
   - [ ] Chapter 9. Easier Text Handling
     - [ ] Making String Handling Less Painful with asprintf
     - [ ] A Pean to strtok

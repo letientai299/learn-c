@@ -53,7 +53,7 @@
     - [x] A Pean to strtok
     - [x] Unicode
   - [ ] Chapter 10. Better Structures
-    - [ ] Compound Literals
+    - [x] Compound Literals
     - [ ] Variadic Macros
     - [ ] Safely Terminated Lists
     - [ ] Multiple Lists

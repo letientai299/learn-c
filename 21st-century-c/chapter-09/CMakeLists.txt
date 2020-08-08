@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.17)
-project(chapter_08 C)
+cmake_minimum_required(VERSION 3.16)
+project(chapter_09 C)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
@@ -14,7 +14,4 @@ else ()
     add_compile_options(-Wall -Wextra -pedantic -Werror)
 endif ()
 
-# use all *.c and *.h in this folder to compile
-file(GLOB SRC "*.h" "*.c"`)
-
-add_executable(main ${SRC})
+add_executable(sadstring sad/sadstring.c)

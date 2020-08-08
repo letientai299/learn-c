@@ -2,7 +2,7 @@
 .idea/
 bin/
 
-*/chapter-06/cmake-build-debug/
+*/chapter-*/cmake-build-debug/
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles

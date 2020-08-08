@@ -48,10 +48,10 @@
     - [x] Cultivate Robust and Flourishing Macros
     - [x] Linkage with static and extern
     - [x] The const Keyword
-  - [ ] Chapter 9. Easier Text Handling
-    - [ ] Making String Handling Less Painful with asprintf
-    - [ ] A Pean to strtok
-    - [ ] Unicode
+  - [x] Chapter 9. Easier Text Handling
+    - [x] Making String Handling Less Painful with asprintf
+    - [x] A Pean to strtok
+    - [x] Unicode
   - [ ] Chapter 10. Better Structures
     - [ ] Compound Literals
     - [ ] Variadic Macros

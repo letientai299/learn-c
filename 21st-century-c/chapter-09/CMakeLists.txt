@@ -15,3 +15,4 @@ else ()
 endif ()
 
 add_executable(sadstring sad/sadstring.c)
+add_executable(2string 2string/2string.c)

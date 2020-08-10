@@ -15,3 +15,6 @@ else ()
 endif ()
 
 add_executable(sum sum/sum.c)
+add_executable(sum_var sum_var/main.c)
+add_executable(boxes boxes/main.c)
+add_executable(playground playground/main.c)

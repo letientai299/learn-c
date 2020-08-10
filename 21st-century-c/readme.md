@@ -52,19 +52,19 @@
     - [x] Making String Handling Less Painful with asprintf
     - [x] A Pean to strtok
     - [x] Unicode
-  - [ ] Chapter 10. Better Structures
+  - [x] Chapter 10. Better Structures
     - [x] Compound Literals
-    - [ ] Variadic Macros
-    - [ ] Safely Terminated Lists
-    - [ ] Multiple Lists
-    - [ ] Foreach
-    - [ ] Vectorize a Function
-    - [ ] Designated Initializers
-    - [ ] Initialize Arrays and Structs with Zeros
-    - [ ] Typedefs Save the Day
-    - [ ] Return Multiple Items from a Function
-    - [ ] Flexible Function Inputs
-    - [ ] The Void Pointer and the Structures It Points To
+    - [x] Variadic Macros
+    - [x] Safely Terminated Lists
+    - [x] Multiple Lists
+    - [x] Foreach
+    - [x] Vectorize a Function
+    - [x] Designated Initializers
+    - [x] Initialize Arrays and Structs with Zeros
+    - [x] Typedefs Save the Day
+    - [x] Return Multiple Items from a Function
+    - [x] Flexible Function Inputs
+    - [x] The Void Pointer and the Structures It Points To
   - [ ] Chapter 11. Object-Oriented Programming in C
     - [ ] Extending Structures and Dictionaries
     - [ ] Functions in Your Structs

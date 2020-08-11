@@ -1,0 +1,1 @@
+- `static` functioon can't be used outside the file

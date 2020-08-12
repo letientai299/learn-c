@@ -22,12 +22,14 @@
   - [x] Testing Support
     - A bit of automation test, but sadly, it's integration instead of unit
       test.
-- [ ] Adding System Introspection (Step 5)
+- [x] Adding System Introspection (Step 5)
   - This doesn't feel elegant since we the `tut_config.h` file (which is
     generated from `tut_config.h.in` and cmake) is not a dpendencies for both
     top level cmake project and the library (`math_funcs`).
-  - [ ] Specify Compile Definition
-- [ ] Adding a Custom Command and Generated File (Step 6)
+  - [x] Specify Compile Definition
+    - OK, this improves a bit over my above feeling. Now the `tut_config.h` is
+      no longer needed for `math_funcs`.
+- [x] Adding a Custom Command and Generated File (Step 6)
 - [ ] Building an Installer (Step 7)
 - [ ] Adding Support for a Dashboard (Step 8)
 - [ ] Mixing Static and Shared (Step 9)

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(step01 VERSION 1.0.2)
+project(step01 VERSION 1.0.1)
 
 add_executable(tut tut.cxx)
 

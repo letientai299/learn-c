@@ -65,23 +65,23 @@
     - [x] Return Multiple Items from a Function
     - [x] Flexible Function Inputs
     - [x] The Void Pointer and the Structures It Points To
-  - [ ] Chapter 11. Object-Oriented Programming in C
-    - [ ] Extending Structures and Dictionaries
-    - [ ] Functions in Your Structs
-    - [ ] Scope
-    - [ ] Overload
-    - [ ] Count References
-  - [ ] Chapter 12. Parallel Threads
-    - [ ] The Environment
-    - [ ] OpenMP
-    - [ ] Thread Local
-    - [ ] Shared Resources
-    - [ ] Pthreads
-    - [ ] C atoms
-  - [ ] Chapter 13. Libraries
-    - [ ] GLib
-    - [ ] POSIX
-    - [ ] The GNU Scientific Library
-    - [ ] SQLite
-    - [ ] libxml and cURL
+  - [x] Chapter 11. Object-Oriented Programming in C
+    - [x] Extending Structures and Dictionaries
+    - [x] Functions in Your Structs
+    - [x] Scope
+    - [x] Overload
+    - [x] Count References
+  - [x] Chapter 12. Parallel Threads
+    - [x] The Environment
+    - [x] OpenMP
+    - [x] Thread Local
+    - [x] Shared Resources
+    - [x] Pthreads
+    - [x] C atoms
+  - [x] Chapter 13. Libraries
+    - [x] GLib
+    - [x] POSIX
+    - [x] The GNU Scientific Library
+    - [x] SQLite
+    - [x] libxml and cURL
   - [x] Appendix A: C 101

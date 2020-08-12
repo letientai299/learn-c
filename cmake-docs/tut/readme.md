@@ -32,7 +32,12 @@
 - [x] Adding a Custom Command and Generated File (Step 6)
 - [x] Building an Installer (Step 7)
   - On macos, cpack generates a SH script that embedded a tz file. Pretty cool.
-- [ ] Adding Support for a Dashboard (Step 8)
+- [x] Adding Support for a Dashboard (Step 8)
+
+I've skimmed throught the remaining and I don't have any interesting to continue
+this tutorial. They're some nice thing to know, but not what I need at this
+moment.
+
 - [ ] Mixing Static and Shared (Step 9)
 - [ ] Adding Generator Expressions (Step 10)
 - [ ] Adding Export Configuration (Step 11)

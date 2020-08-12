@@ -30,7 +30,8 @@
     - OK, this improves a bit over my above feeling. Now the `tut_config.h` is
       no longer needed for `math_funcs`.
 - [x] Adding a Custom Command and Generated File (Step 6)
-- [ ] Building an Installer (Step 7)
+- [x] Building an Installer (Step 7)
+  - On macos, cpack generates a SH script that embedded a tz file. Pretty cool.
 - [ ] Adding Support for a Dashboard (Step 8)
 - [ ] Mixing Static and Shared (Step 9)
 - [ ] Adding Generator Expressions (Step 10)

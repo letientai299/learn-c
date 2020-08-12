@@ -6,7 +6,13 @@
 ## Content
 
 - [ ] A Basic Starting Point (Step 1)
-  - [ ] Adding a Version Number and Configured Header File
+  - [x] Adding a Version Number and Configured Header File
+    - Full version include `[<major>[.<minor>[.<patch>[.<tweak>]]]]`, all of
+      them can be defined and generated similar to `MAJOR` and `MINOR` in this
+      example.
+    - Prefix before `_VERSION_MINOR` and `_VERSION_MARJOR` must be exact
+      project name. Thus, the project name should not contains `@` (it's use by
+      cmake to specify its variable).
   - [ ] Specify the C++ Standard
   - [ ] Build and Test
 - [ ] Adding a Library (Step 2)

@@ -1,0 +1,7 @@
+// the part before _VERSION_MARJOR and _VERSION_MINOR
+// should be project name, case sensitive.
+
+#define TUT_VERSION_MAJOR @step01_VERSION_MAJOR@
+#define TUT_VERSION_MINOR @step01_VERSION_MINOR@
+#define TUT_VERSION_PATCH @step01_VERSION_PATCH@
+#define TUT_VERSION @step01_VERSION@

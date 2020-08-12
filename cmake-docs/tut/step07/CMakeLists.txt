@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.10)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED true)
 
-project(tut VERSION 1.0.5)
+project(tut VERSION 1.0.7)
 
 # If this line is after the 'configure_file' line, the option value won't take
 # effect, means it's always OFF.

@@ -13,7 +13,7 @@
     - Prefix before `_VERSION_MINOR` and `_VERSION_MARJOR` must be exact
       project name. Thus, the project name should not contains `@` (it's use by
       cmake to specify its variable).
-  - [ ] Specify the C++ Standard
+  - [x] Specify the C++ Standard
   - [ ] Build and Test
 - [ ] Adding a Library (Step 2)
 - [ ] Adding Usage Requirements for Library (Step 3)
